@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/bg_main"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="10dp" >
+
+
+    <EditText
+        android:layout_marginTop="10dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:background="@color/white"
+        android:hint="Name"
+        android:padding="10dp"
+        android:singleLine="true"
+        android:inputType="textCapWords"
+        android:textColor="@color/input_register_bg"
+        android:textColorHint="@color/input_register_hint"
+        android:id="@+id/editText" />
+
+
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:background="@color/white"
+        android:hint="Gender (M/F)"
+        android:padding="10dp"
+        android:singleLine="true"
+        android:inputType="textCapWords"
+        android:textColor="@color/input_register_bg"
+        android:textColorHint="@color/input_register_hint"
+        android:id="@+id/editText2" />
+
+
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:background="@color/white"
+        android:hint="E-mail"
+        android:padding="10dp"
+        android:singleLine="true"
+        android:inputType="textCapWords"
+        android:textColor="@color/input_register_bg"
+        android:textColorHint="@color/input_register_hint"
+        android:ems="10"
+        android:id="@+id/editText3" />
+
+
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:background="@color/white"
+        android:hint="Mobile No"
+        android:padding="10dp"
+        android:singleLine="true"
+        android:inputType="phone"
+        android:textColor="@color/input_register_bg"
+        android:textColorHint="@color/input_register_hint"
+        android:ems="10"
+        android:id="@+id/editText4" />
+
+
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="150dp"
+        android:layout_marginBottom="10dp"
+        android:background="@color/white"
+        android:hint="Description"
+        android:padding="10dp"
+        android:singleLine="true"
+        android:inputType="textCapWords"
+        android:textColor="@color/input_register_bg"
+        android:textColorHint="@color/input_register_hint"
+        android:id="@+id/editText5" />
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginRight="10dp">
+    <Button
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dip"
+        android:background="#888888"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="15dp"
+        android:text="CHOOSE PIC"
+        android:id="@+id/buttonChoose" />
+
+    <Button
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:background="#ff6861"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:text="SUBMIT F.I.R"
+        android:id="@+id/buttonUpload" />
+</LinearLayout>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:id="@+id/imageView"
+        android:layout_marginTop="10dp"/>
+    </LinearLayout>
+
+</LinearLayout>
